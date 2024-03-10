@@ -1,0 +1,104 @@
+.container2{
+    /* border: 1px solid purple; */
+    height: 150px;
+    width: 700px;
+    margin-top: 40px;
+    background-color: rgb(51,54,151);
+    border-radius: 10px;
+    margin: auto;
+    opacity: 0.80;
+}
+.container2 >h2{
+    color: white;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+.flex6{
+    display: flex;
+    height: 90px;
+    width: 650px;
+    /* border: 1px solid green; */
+    margin-left: 40px;
+}
+.input{
+    height: 40px;
+    width: 320px;
+    border-radius: 15px;
+}
+.container2 > div > button{
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: -70px;
+    margin-top: 5px;
+    background-color: yellow;
+    border: none;
+}
+.input:hover{
+    font-size: 17px;
+}
+.container2 > div > button:hover{
+    font-size: 18px;
+}
+.container3{
+
+    background-color: rgb(243,243,252);
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: -70px;
+   
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.container3 > div{
+    /* border: 1px solid red; */
+    margin-top: 80px;
+    height: 250px;
+}
+.flex7{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.flex7  > img{
+    height: 40px;
+    width: 40px;
+    margin-top: -10px;
+}
+.flex7 > h2{
+    color: gray;
+}
+.flex8{
+    display: flex;
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 100px;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.container3 >div > h4{
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+.container3> div>p{
+    color: gray;
+    margin-left: 30px;
+    padding-top: 9px;
+}
+.flext11{
+    display: flex;
+    height: 100px;
+   width: 78%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: -90px;
+    color: blue;
+    font-size: 11px;
+
+}

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    /* border: 1px solid black; */
+    width: 38%;
+    height: 50px;
+    margin-top: -120px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 58%;
+    padding: 20px;
+    font-size: 16px;
+    
+    text-decoration: none;
+}
+.grid_nav{
+    display: grid;
+    grid-template-columns: repeat(2.1fr);
+   
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 20px;
+    margin-top: -5px;
+    font-size: 14px;
+    border: none;
+}
+.navbox{
+    /* border: 1px solid red; */
+    height: 100px;
+    width: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.span1{
+    font-size: 20px;
+    padding: 100px;
+    color: whitesmoke;
+}
+.navbox > img{
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.links{
+    text-decoration: none;
+    color: rgb(192, 188, 188);
+}
+.links:hover{
+    font-size: 18px;
+    color: white;
+}
+.bg_img{
+    background: rgb(152,145,211) 0% 0% no-repeat padding-box;
+    background-image: url("../images/women.png") ;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    
+    opacity: 0.80;
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-radius: 0px 0px 200px 350px;
+    
+}
+.grid2{
+    display: grid;
+    /* border: 1px solid black; */
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.grid2 > div{
+    /* border: 1px solid red; */
+    height: 400px;
+}
+.grid2 > div > h1{
+    color: white;
+    margin-left: 40px;
+}
+.grid2 > div > p{
+    color: white;
+    margin-left: 40px;
+}
+.btn2{
+    height: 40px;
+    width: 150px;
+    margin-left: 40px;
+    background-color: yellow;
+    border-radius: 20px;
+    border: none;
+}
+.btn2:hover{
+    background-color: yellowgreen;
+    font-size: 15px;
+    color: white;
+}
+.flex2{
+    display: flex;
+}
+.flex2 > p{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.flex2 > p:hover{
+    font-size: 18px;
+    color: white;
+}
+.secondbox > video{
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+}

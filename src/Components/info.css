@@ -1,0 +1,79 @@
+.container{
+    /* border: 1px solid black; */
+    width: 35%;
+    margin: auto;
+    text-align: center;
+}
+.container > p{
+    color: gray;
+    margin: 20px -40px 10px -40px;
+    font-size: 15px;
+    word-spacing:5px;;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 80%;
+    margin: auto;
+    gap: 30px;
+}
+/* .grid3 > div{
+    border: 1px solid red;
+} */
+.grid3 > div > img{
+    height: 200px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top:20px ;
+   
+}
+.grid3 >div:hover{
+    margin-top: -20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 300px;
+}
+.grid3 > div > h2{
+    text-align: center;
+}
+.grid3 > div > p{
+    margin: 3px 40px ;
+    color: gray;
+}
+.grid4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    width: 1800px;
+    margin: auto;
+    margin-left: 150px;
+}
+/* .grid4 > div{
+    border: 1px solid red;
+} */
+.grid4 > div video{
+    height: 300px;
+    width: 500px;
+    margin-left: 40px;
+}
+.grid4 > div >h2{
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 350px;
+}
+.grid4 > div > p{
+    color: gray;
+    width: 500px;
+    margin-left: 20px;
+}
+.btn2{
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+    background-color: yellow;
+    border-radius: 20px;
+    border: none;
+}
+.btn2:hover{
+    background-color: yellowgreen;
+    font-size: 15px;
+    color: white;
+}
